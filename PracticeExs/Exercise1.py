@@ -1,0 +1,15 @@
+euros_sum = 0
+fifty_banknotes = input("Enter number of 50 euro banknotes:")
+fifty_banknotes = int(fifty_banknotes)
+twenty_banknotes = input("Enter number of 20 euro banknotes:")
+twenty_banknotes = int(twenty_banknotes)
+ten_banknotes = input("Enter number of 10 euro banknotes:")
+ten_banknotes = int(ten_banknotes)
+five_banknotes = input("Enter number of 5 euro banknotes:")
+five_banknotes = int(five_banknotes)
+two_coin = input("Enter number of 2 euro coins:")
+two_coin = int(two_coin)
+one_coin = input("Enter number of 1 euro coins:")
+one_coin = int(one_coin)
+euros_sum = fifty_banknotes*50 + twenty_banknotes*20 + ten_banknotes*10 + five_banknotes*5 + two_coin*2 + one_coin*1
+print("You have", euros_sum, "euros.")
